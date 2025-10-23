@@ -1,8 +1,55 @@
-#head{
-    width: 40%; /* Or any specific width less than 100% */
+.maindiv{
+    width: 95%; /* Or any specific width less than 100% */
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(90, 89, 89, 0.63);
-
+    background-color: #f7f7f7;
+    padding-bottom: 2px;
+    padding-top: 5px;
 }
+
+.headdiv{
+    background-color: #A8F0EF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+    background-color: #A8F0EF;
+}
+
+.friendsdiv{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0D8785;
+    margin-left: 20px;
+    width: 200px;
+    background-color: #3FE0D0;
+}
+
+
+.div4{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #C2E7E9;
+    margin-left: 20px;
+    background-color: #EAFAFA;
+}
+
+#headtxt{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#friendtxt{
+    margin-left: 20px;
+    color: #4fa199e8;
+}
+
+li::marker {
+    color: #040D0C; /* Or any other color like #FF0000, blue, rgb(255,0,0) */
+}
+
+ul.filled-bullets {
+  list-style-type: disc;
+}
+
+
 
