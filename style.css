@@ -1,5 +1,5 @@
 .maindiv{
-    width: 95%; /* Or any specific width less than 100% */
+    width: 60%; /* Or any specific width less than 100% */
     margin-left: auto;
     margin-right: auto;
     background-color: #f7f7f7;
@@ -15,22 +15,35 @@
     background-color: #A8F0EF;
 }
 
-.friendsdiv{
+.friendsdiv {
+    float: left;
+    width: 200px;
+    background-color: #3FE0D0;
     border-radius: 10px;
     border-style: solid;
     border-color: #0D8785;
     margin-left: 20px;
-    width: 200px;
-    background-color: #3FE0D0;
+    margin-top: 15px;
+    padding: 10px;
 }
 
-
-.div4{
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #C2E7E9;
-    margin-left: 20px;
+.div4 {
+    float: right;
+    width: calc(100% - 280px); 
     background-color: #EAFAFA;
+    border: 4px solid #C2E7E9;
+    border-radius: 5px;
+    margin-right: 20px; 
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.div4 img {
+    float: right;         
+    margin-left: 10px;   
+    margin-bottom: 5px;   
+    width: 150px;         
 }
 
 #headtxt{
@@ -44,12 +57,16 @@
 }
 
 li::marker {
-    color: #040D0C; /* Or any other color like #FF0000, blue, rgb(255,0,0) */
+    color: #040D0C; 
 }
 
 ul.filled-bullets {
   list-style-type: disc;
 }
 
-
+.maindiv::after { /* This content and float content I studied from w3schools, but due to time constraint*/
+    content: "";  /* I did not have time to properly understand this */
+    display: block;
+    clear: both;
+}
 
