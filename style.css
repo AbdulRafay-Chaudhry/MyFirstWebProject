@@ -39,12 +39,6 @@
     box-sizing: border-box; 
 }
 
-.div4 img {
-    float: right;         
-    margin-left: 10px;   
-    margin-bottom: 5px;   
-    width: 150px;         
-}
 
 #headtxt{
     text-align: right;
